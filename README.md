@@ -9,6 +9,6 @@
 ---
 
 ## 📚 Giới thiệu môn học
-Môn **Nền tảng Lập trình Web (CSE391)** cung cấp các kiến thức cơ bản và quan trọng để xây dựng một website hoàn chỉnh, từ giao diện đến xử lý logic phía client.
+Môn **Nền tảng Lập trình Web (CSE391)** trang bị cho sinh viên các kiến thức nền tảng và quan trọng trong phát triển website, bao gồm HTML để xây dựng cấu trúc trang, CSS để thiết kế giao diện và JavaScript để xử lý logic phía client. Thông qua môn học, sinh viên có thể tạo ra các website hoàn chỉnh, thân thiện với người dùng và đáp ứng các yêu cầu thực tế.
 
 ---

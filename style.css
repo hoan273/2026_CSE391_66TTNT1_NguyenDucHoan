@@ -1,8 +1,96 @@
-/* Reset */
+/* TODO 1: Universal selector - reset margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* TODO 2: Type selector cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* TODO 3: ID selector cho #main-header */
+#main-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* TODO 4: Class selector cho .nav-link */
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+
+/* TODO 5: Group selector cho h1, h2, h3 */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+
+/* TODO 6: Descendant selector cho nav a */
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+/* TODO 7: Pseudo-class selector cho a:hover */
+a:hover {
+    color: #ff6600;
+    background-color: #eee;
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+/* Cải tiến nav bằng Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #f8f9fa;
+    padding: 15px;
+}
+
+
+/* Cải tiến .posts bằng Flexbox */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* có thể đổi space-between */
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+
+/* Card layout */
+.card {
+    flex: 1 1 300px; 
+    /* Responsive tự co giãn, tối thiểu ~300px */
+}
+
+
+/* Responsive: Khi màn hình < 768px */
+@media (max-width: 768px) {
+    .posts {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
 }
 
 /* Background toàn trang để thấy khung rõ */

@@ -1,0 +1,23 @@
+body{
+    font-family: Arial;
+    margin:30px;
+}
+
+.field{
+    margin-bottom:15px;
+}
+
+input{
+    padding:6px;
+    width:250px;
+}
+
+.error{
+    color:red;
+    font-size:13px;
+    display:block;
+}
+
+#successMsg{
+    color:green;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký tài khoản</title>
+    <link rel="stylesheet" href="B2.1.css">
+</head>
+
+<body>
+
+    <h2>Form đăng ký</h2>
+
+    <form id="registerForm">
+
+        <div class="field">
+            <label>Họ và tên</label>
+            <input id="fullname">
+            <small class="error" id="fullnameError"></small>
+        </div>
+
+        <div class="field">
+            <label>Email</label>
+            <input id="email">
+            <small class="error" id="emailError"></small>
+        </div>
+
+        <div class="field">
+            <label>Số điện thoại</label>
+            <input id="phone">
+            <small class="error" id="phoneError"></small>
+        </div>
+
+        <div class="field">
+            <label>Mật khẩu</label>
+            <input type="password" id="password">
+            <small class="error" id="passwordError"></small>
+        </div>
+
+        <div class="field">
+            <label>Xác nhận mật khẩu</label>
+            <input type="password" id="confirmPassword">
+            <small class="error" id="confirmPasswordError"></small>
+        </div>
+
+        <div class="field">
+            <label>Giới tính</label>
+            <input type="radio" name="gender" value="Nam"> Nam
+            <input type="radio" name="gender" value="Nữ"> Nữ
+            <small class="error" id="genderError"></small>
+        </div>
+
+        <div class="field">
+            <input type="checkbox" id="terms"> Tôi đồng ý điều khoản
+            <small class="error" id="termsError"></small>
+        </div>
+
+        <button type="submit">Đăng ký</button>
+
+    </form>
+
+    <h3 id="successMsg"></h3>
+
+    <script src="B2.1.js"></script>
+
+</body>
+
+</html>
